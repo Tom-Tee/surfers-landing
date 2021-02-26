@@ -2,6 +2,40 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D1D8D5, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D1D8D5, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+  // background: #2980B9;  /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to right, #D1D8D5, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to right, #D1D8D5, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+// background: #076585;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 .img {
   width: 33%;
@@ -13,10 +47,12 @@
 .card-product {
   overflow: hidden;
   height: 120px;
-  background: #FDFAF0;
-  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background: #00414D;
+  color:white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
+  border-radius: 4px;
 }
 
 .card-product img {
@@ -52,11 +88,15 @@
 .tag-line {
   // position: relative;
   // margin: 0 auto;
+
 }
 
 .text-back {
-  background-color: #FDFAF0;
+  background-color: #00414D;
   height: 100%;
+  color:white;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 // .texty-out {
@@ -68,3 +108,39 @@
   justify-content: center;
 }
 
+.nav-titles {
+  position: relative;
+  right: 35px;
+}
+
+
+.inner-nav {
+  position: relative;
+  left:100px;
+  margin-bottom : 0;
+}
+
+.for-border {
+  border-right: 1px solid #0d0d0d;
+}
+
+p {
+  font-weight:250;
+  font-size:14px;
+}
+
+// .board-header {
+//   background-color: navy;
+// }
+
+
+.piccy {
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+
+
+.board-header {
+  position: absolute;
+}
