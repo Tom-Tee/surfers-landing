@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -165,6 +167,14 @@ p {
   }
   position: relative;
   top: -32px;
+}
+
+.main-head {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  font-style: italic;
+  font-weight: bolder;
+  font-size:50px;
 }
 // .lower-screen {
 //   background-color:#FDFAF0;
