@@ -151,6 +151,21 @@ p {
   // left:0;
 }
 
+
+.sign {
+  border-right: 1px solid #0d0d0d;
+}
+
+.log-nav {
+  border-top: 3px solid #000;
+  float:right;
+  width: fit-content;
+  p {
+    margin: 0;
+  }
+  position: relative;
+  top: -32px;
+}
 // .lower-screen {
 //   background-color:#FDFAF0;
 // }
