@@ -85,7 +85,8 @@
 
 
 .boards {
-  height: 550px;
+  height: 100%;
+  width: 450px;
 }
 
 .tag-line {
@@ -98,7 +99,7 @@
 
 .text-back {
   background-color: #FDFAF0;
-  height: 100%;
+  height: 300px;
   color:black;
   border-radius: 4px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
