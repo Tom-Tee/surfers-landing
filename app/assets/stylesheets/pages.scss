@@ -23,9 +23,9 @@
 //   }
 // }
 
-// body {
-//   background-color: #ebf9ff;
-// }
+body {
+  background-color: #ebf9ff;
+}
 
   // background: #2980B9;  /* fallback for old browsers */
   // background: -webkit-linear-gradient(to right, #D1D8D5, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
@@ -173,6 +173,7 @@ p {
   }
   // position: relative;
   top: -32px;
+  position: relative;
 }
 
 .main-head {
