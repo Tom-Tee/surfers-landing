@@ -68,7 +68,7 @@ body {
   height: 120px;
   background: #FDFAF0;
   color:black;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
   border-radius: 4px;
@@ -102,7 +102,7 @@ body {
 
 .boards {
   height: 100%;
-  width: 450px;
+  width: 100%;
 }
 
 .tag-line {
@@ -114,21 +114,20 @@ body {
 // #00414D
 
 .text-back {
-  background-color: #FDFAF0;
+  // background-color: #FDFAF0;
   height: 300px;
   color:black;
   border-radius: 4px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 // .texty-out {
 //   position: relative;
 // }
 
-// .texty {
-//   vertical-align: center;
-//   justify-content: center;
-// }
+.texty {
+  background-color: #FDFAF0;
+}
 
 .nav-titles {
   position: relative;
@@ -222,6 +221,10 @@ p {
   width: fit-content;
 }
 
-.right-lower {
-  background-color: #FFFFFF;
+// .right-lower {
+//   background-color: #FFFFFF;
+// }
+
+.lower-lower {
+  background-color: white;
 }
