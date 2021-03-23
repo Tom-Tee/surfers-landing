@@ -8,6 +8,28 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
+
+// const javascriptBtn = document.querySelector(".btn-toggle");
+
+// javascriptBtn.addEventListener("click", function () {
+//   document.body.classList.toggle("surf-theme");
+// });
+
+const themeSwitcher = () => {
+const themeSwitch = document.querySelector(".btn-toggle");
+if(!themeSwitch) return;
+themeSwitch.addEventListener("click", function() {
+    document.body.classList.toggle("surf-theme");
+  });
+}
+
+
+
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+document.addEventListener("turbolinks:load", () => {
+  themeSwitcher()
+  // fitMapToMarkers();
+});
