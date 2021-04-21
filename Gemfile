@@ -23,7 +23,6 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 # gem 'pg'
 # gem 'sqlite3'
-gem 'sqlite3'
 # Use Active Storage variant
 gem 'pg'
 # gem 'image_processing', '~> 1.2'
@@ -34,6 +33,7 @@ gem 'cloudinary', '~> 1.16.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'sqlite3'
 end
 
 group :development do
