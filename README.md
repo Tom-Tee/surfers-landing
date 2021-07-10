@@ -42,5 +42,5 @@ There is an optional *surf mode* that will show upon selection.
 
 The responsiveness of this application was done with Bootstrap 5 as well as an edited footer:
 
-[UI - Home](docs/footer.png)
+![UI - Home](docs/footer.png)
 
