@@ -1,24 +1,46 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# That's Rad Man
 
-Things you may want to cover:
+## About
 
-* Ruby version
+That's Rad Man was created as a front end exercise to sharpen my front end skills.
 
-* System dependencies
+![UI - Home](docs/home.png)
 
-* Configuration
+This application was built with
+```
+Ruby on Rails, Javascript, HTML & CSS.
+```
 
-* Database creation
+## Live site:
 
-* Database initialization
+[That's Rad Man](https://rad-man.herokuapp.com/)
 
-* How to run the test suite
+## Setup
 
-* Services (job queues, cache servers, search engines, etc.)
+If you would like to look at the code then clone the GitHub repository and change directory into `new-surfing`:
+```
+gh repo clone Tom-Tee/That-s-Rad-Man
+```
 
-* Deployment instructions
+Ensure that you have Rails and Ruby installed on your computer
 
-* ...
+You will also need Bundler installed:
+```
+bundle install
+```
+This will install the gems needed to run the program correctly.
+
+## Navigating the application
+
+This is a simple landing page to sharpen my skills with HTML CSS & Javascript. 
+
+There is an optional *surf mode* that will show upon selection.
+
+![UI - Home](docs/home-toggle.png)
+
+The responsiveness of this application was done with Bootstrap 5 as well as an edited footer:
+
+[UI - Home](docs/footer.png)
+
